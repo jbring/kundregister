@@ -24,5 +24,14 @@
             TelefonType = telefonType;
             Etikett = etikett;
         }
+
+        public TelefonLista(int personID, string förnamn, string efternamn, string telefonNummer, string telefonType)
+        {
+            PersonID = personID;
+            Förnamn = förnamn;
+            Efternamn = efternamn;
+            TelefonNummer = telefonNummer;
+            TelefonType = telefonType;
+        }
     }
 }
